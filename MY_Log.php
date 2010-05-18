@@ -7,7 +7,7 @@ class MY_Log extends CI_Log
 	
 	function __construct()
     {
-    	$this->mongo = new Mongo();
+    	$this->mongo = new Mongo("localhost");
         parent::CI_Log();
     }
 	
