@@ -45,7 +45,7 @@ class MY_Log extends CI_Log
 		));
 		
 		 		
-		return TRUE;
+		return $output;
 	}
 
 }
